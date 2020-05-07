@@ -1,0 +1,21 @@
+Cara membuat spring security menggunakan spring boot. 
+--> add dependency
+  web
+  tomcat-embed-jasper
+  jstl -> untuk jsp
+  spring-data-jpa
+  spring-boot-stater-security
+  mysql-connector-java
+  
+ --> Membuat model 
+  UserModel
+  RoleModel
+--> Membuat Repository
+  UserRepository
+  RoleRepository
+
+--> Define security's UserDetailsService
+  fungsinya untuk mengimplementasikan login/authentication dengan spring security.yang digunakan untuk mengambil 
+  informasi otentikasi dan otorisasi pengguna.
+  
+  
